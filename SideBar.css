@@ -1,0 +1,106 @@
+/* * {
+    border: 1px solid red;
+} */
+
+@font-face {
+    font-family: MS-Bold;
+    src: url(SpaceGrotesk-Bold-BF65712b4f9ac68.ttf);
+}
+
+
+
+@font-face {
+    font-family: MS-Medium;
+    src: url(SpaceGrotesk-Medium-BF65712b4fd0ef9.ttf);
+}
+
+@font-face {
+    font-family: MS-Light;
+    src: url(SpaceGrotesk-Light-BF65712b4fc80d0.ttf);
+}
+
+
+
+@font-face {
+    font-family: MS-Regular;
+    src: url(SpaceGrotesk-Regular-BF65712b4fdc934.ttf);
+}
+
+@font-face {
+    font-family: MS-SemiBold;
+    src: url(SpaceGrotesk-SemiBold-BF65712b4fe55fc.ttf);
+}
+
+@font-face {
+    font-family: MS-Variable;
+    src: url(SpaceGrotesk-VariableFont_wght-BF65712b500c2f2.ttf);
+}
+
+.nav2 ul {
+    width: 100%;
+    list-style: none;
+}
+
+
+
+.nav2 a {
+    height: 100%;
+    padding: 0px 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: black;
+    text-align: center;
+}
+
+.nav2 .sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    z-index: 999;
+    background-color: #024751;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+    display: none;
+
+}
+
+.nav2 .sidebar li {
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    font-size: 26px;
+}
+
+.nav2 .sidebar a {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.fa-xmark {
+    color: wheat;
+}
+
+.fa-solid {
+    font-size: 40px;
+    margin-right: 20px;
+
+}
+
+.fa-bars:before,
+.fa-navicon:before {
+    display: flex;
+    content: "\f0c9"
+}
+
+@media screen and (min-width:1072px) and (max-width: 4000px) {
+    .nav2 {
+        display: none;
+    }
+}
